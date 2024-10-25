@@ -1,0 +1,54 @@
+site_name: Forge documentation
+
+theme:
+  name: material
+  font:
+    text: Redhat Display
+    code: Roboto Mono
+
+  palette:
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+    - schema: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+
+nav:
+  - Home: index.md
+  - Language reference:
+    - Comments: language-reference/comments.md
+    - Declarations:
+      - Enum: language-reference/declarations/enum.md
+      - Function: language-reference/declarations/function.md
+      - Interface: language-reference/declarations/interface.md
+      - Struct: language-reference/declarations/struct.md
+      - Type: language-reference/declarations/type.md
+      - Variable: language-reference/declarations/variable.md
+    - Literals:
+      - Boolean: language-reference/literals/boolean.md
+      - Integer: language-reference/literals/integer.md
+      - Float: language-reference/literals/float.md
+      - Character: language-reference/literals/character.md
+      - String: language-reference/literals/string.md
+    - Statements:
+      - For: language-reference/statements/for.md
+      - If: language-reference/statements/if.md
+      - Match: language-reference/statements/match.md
+      - While: language-reference/statements/while.md
+    - Types:
+      - Basic: language-reference/types/basic.md
+      - Modifiers: language-reference/types/modifiers.md
+    - Exceptions: language-reference/exceptions.md
+    - Imports: language-reference/imports.md

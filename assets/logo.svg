@@ -1,0 +1,24 @@
+<svg width="786" height="942" viewBox="0 0 786 942" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="786" height="749" rx="50" fill="#121519"/>
+<mask id="mask0_3_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="0" width="740" height="713">
+<ellipse cx="371" cy="356.5" rx="370" ry="356.5" fill="url(#paint0_radial_3_2)"/>
+</mask>
+<g mask="url(#mask0_3_2)">
+<rect x="143" y="317" width="500" height="250" fill="#5D442F"/>
+<circle cx="393" cy="317" r="250" fill="#5D442F"/>
+</g>
+<circle cx="393" cy="317" r="150" fill="#FFCC55"/>
+<rect x="243" y="317" width="300" height="250" fill="#FFCC55"/>
+<path d="M462.92 297.2V339.48C462.92 347.88 456.947 351.52 445 350.4L442.48 318.48L385.64 316.52V384.28L435.76 378.4C437.813 387.36 437.907 396.6 436.04 406.12L385.64 403.32V469.12L411.4 470.8C412.52 482.933 408.32 489 398.8 489H330.2C330.2 489 330.2 488.253 330.2 486.76C330.2 476.493 334.307 470.987 342.52 470.24L350.64 469.68V317.08L330.48 315.4C329.92 314.28 330.013 311.76 330.76 307.84C332.44 300.747 336.547 297.2 343.08 297.2H462.92Z" fill="#3C2C1E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 567C18 774.107 185.893 942 393 942C600.107 942 768 774.107 768 567H18Z" fill="url(#paint1_radial_3_2)" fill-opacity="0.4"/>
+<defs>
+<radialGradient id="paint0_radial_3_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(371 356.5) rotate(90) scale(356.5 370)">
+<stop offset="0.5" stop-color="#FFCC55" stop-opacity="0.72"/>
+<stop offset="1" stop-color="#737373" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_3_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(393 567) rotate(90) scale(166.5 333)">
+<stop offset="0.2" stop-color="#FFCC55"/>
+<stop offset="1" stop-color="#615A53" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

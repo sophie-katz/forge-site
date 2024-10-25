@@ -1,0 +1,6 @@
+# Boolean literals
+
+```
+true
+false
+```
