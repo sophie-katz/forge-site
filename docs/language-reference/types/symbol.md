@@ -15,4 +15,17 @@ You should have received a copy of the GNU General Public License along with For
 <https://www.gnu.org/licenses/>.
 -->
 
-# forge-site
+# Symbol types
+
+```
+MyStruct
+```
+
+## Details
+
+A type can be represented as a symbol. This symbol must match an existing:
+
+- [Type alias declaration](../declarations/type.md)
+- [Struct declaration](../declarations/struct.md)
+- [Interface declaration](../declarations/interface.md)
+- [Enum declaration](../declarations/enum.md)

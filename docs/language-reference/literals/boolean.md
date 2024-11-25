@@ -1,6 +1,0 @@
-# Boolean literals
-
-```
-true
-false
-```

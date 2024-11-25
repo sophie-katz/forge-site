@@ -15,4 +15,42 @@ You should have received a copy of the GNU General Public License along with For
 <https://www.gnu.org/licenses/>.
 -->
 
-# forge-site
+# Character literals
+
+```
+'A'
+```
+
+## Details
+
+Character literals are exactly equivalent to string literals, except that they use `'` quotes instead of `"` quotes and they can only be exactly one grapheme cluster long.
+
+Characters with the `b` prefix must be exactly one byte long.
+
+Formatters are not allowed in character literals.
+
+## Examples
+
+A simple character literal:
+
+```
+'A'
+
+// This will cause an error
+'AB'
+
+// So will this
+''
+```
+
+A character literal with a byte prefix:
+
+```
+b'A'
+
+// This will cause an error because it is more than one byte long
+b'私'
+
+// This will not because it is one single grapheme cluster
+'私'
+```

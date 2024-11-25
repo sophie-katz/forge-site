@@ -15,4 +15,9 @@ You should have received a copy of the GNU General Public License along with For
 <https://www.gnu.org/licenses/>.
 -->
 
-# forge-site
+# Boolean literals
+
+There are two boolean literals that are represented using keywords:
+
+* `true`
+* `false`

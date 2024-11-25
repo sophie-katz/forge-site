@@ -15,4 +15,28 @@ You should have received a copy of the GNU General Public License along with For
 <https://www.gnu.org/licenses/>.
 -->
 
-# forge-site
+# Title
+
+```
+Example (if applicable)
+```
+
+## Details
+
+## Rationale (if applicable)
+
+## Syntax (if applicable)
+
+```
+Regular expression or EBNF grammar (if applicable)
+```
+
+## Examples (if applicable)
+
+Explanation of the example.
+
+```
+Example
+```
+
+...

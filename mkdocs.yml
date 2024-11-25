@@ -1,3 +1,18 @@
+# Copyright 2024 Sophie Katz
+
+# This file is part of the Forge programming language.
+
+# Forge is free software: you can redistribute it and/or modify it under the terms of the GNU
+# General Public License as published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# Forge is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+# the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+# Public License for more details.
+
+# You should have received a copy of the GNU General Public License along with Forge. If not, see
+# <https://www.gnu.org/licenses/>.
+
 site_name: Forge documentation
 
 theme:
@@ -12,7 +27,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-    
+
     - schema: default
       primary: indigo
       toggle:
@@ -25,30 +40,38 @@ theme:
     - navigation.tabs
     - navigation.sections
 
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Home: index.md
   - Language reference:
-    - Comments: language-reference/comments.md
-    - Declarations:
-      - Enum: language-reference/declarations/enum.md
-      - Function: language-reference/declarations/function.md
-      - Interface: language-reference/declarations/interface.md
-      - Struct: language-reference/declarations/struct.md
-      - Type: language-reference/declarations/type.md
-      - Variable: language-reference/declarations/variable.md
-    - Literals:
-      - Boolean: language-reference/literals/boolean.md
-      - Integer: language-reference/literals/integer.md
-      - Float: language-reference/literals/float.md
-      - Character: language-reference/literals/character.md
-      - String: language-reference/literals/string.md
-    - Statements:
-      - For: language-reference/statements/for.md
-      - If: language-reference/statements/if.md
-      - Match: language-reference/statements/match.md
-      - While: language-reference/statements/while.md
-    - Types:
-      - Basic: language-reference/types/basic.md
-      - Modifiers: language-reference/types/modifiers.md
-    - Exceptions: language-reference/exceptions.md
-    - Imports: language-reference/imports.md
+      - Comments: language-reference/comments.md
+      - Declarations:
+          - Enums: language-reference/declarations/enums.md
+          - Functions: language-reference/declarations/functions.md
+          - Interfaces: language-reference/declarations/interfaces.md
+          - Structs: language-reference/declarations/structs.md
+          - Type aliases: language-reference/declarations/type-aliases.md
+          - Variables: language-reference/declarations/variables.md
+      - Literals:
+          - Booleans: language-reference/literals/booleans.md
+          - Integers: language-reference/literals/integers.md
+          - Floats: language-reference/literals/floats.md
+          - Characters: language-reference/literals/characters.md
+          - Strings: language-reference/literals/strings.md
+      - Statements:
+          - For: language-reference/statements/for.md
+          - If: language-reference/statements/if.md
+          - Match: language-reference/statements/match.md
+          - While: language-reference/statements/while.md
+      - Types:
+          - Basic: language-reference/types/basic.md
+          - Symbol: language-reference/types/symbol.md
+          - Modifiers: language-reference/types/modifiers.md
+      - Scope: language-reference/scope.md
+      - Exceptions: language-reference/exceptions.md
+      - Imports: language-reference/imports.md
